@@ -11,12 +11,12 @@ public class ProductPage {
 	 private WebDriver driver;
 
 	    @FindBy(xpath ="//h2[contains(text(),'All Products')]")
-	    private List<WebElement>ALLproducts;
+	    private WebElement allProductsSection;
 
-	    @FindBy(xpath ="div[@class='overlay-content']//p[contains(text(),'Blue Top')]")
+	    @FindBy(xpath ="//div[@class='overlay-content']//p")
 	    private List<WebElement> productName;
 
-	    @FindBy(xpath =" //h2[contains(text(),'Rs. 500')])[2]")
+	    @FindBy(xpath ="//div[@class='overlay-content']//h2")
 	    private List<WebElement> productPrices;
 
 	    public ProductPage(WebDriver driver) {
@@ -24,11 +24,22 @@ public class ProductPage {
 	        PageFactory.initElements(driver, this);
 	    }
 
+		public void printProductDetails1() {
+			// TODO Auto-generated method stub
+			
+		}
+
 	    public void printProductDetails() {
-	        for (int i = 0; i < ALLproducts.size(); i++) {
-	            String name = productName.get(i).getText();
-	            String price = productPrices.get(i).getText();
-	            System.out.println("Product: " + name + ", Price: " + price);
+	    	if (productName.size() == productPrices.size() && !productName.isEmpty()) {
+	            for (int i = 0; i < productName.size(); i++) {
+	                String name = productName.get(i).getText();
+	                String price = productPrices.get(i).getText();
+	                System.out.println("Product: " + name + ", Price: " + price);
+	            }
+	        } else if (productName.isEmpty() || productPrices.isEmpty()) {
+	            System.out.println("Product names or prices are not loaded.");
+	        } else {
+	            System.out.println("Mismatch between product names and prices count.");
 	        }
 	    }
 }

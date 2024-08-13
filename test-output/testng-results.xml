@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-13T14:50:53 IST" name="Suite" finished-at="2024-08-13T14:51:28 IST" duration-ms="34764">
+  <suite started-at="2024-08-13T16:32:34 IST" name="Suite" finished-at="2024-08-13T16:36:39 IST" duration-ms="244327">
     <groups>
     </groups>
-    <test started-at="2024-08-13T14:50:53 IST" name="Test" finished-at="2024-08-13T14:51:28 IST" duration-ms="34764">
+    <test started-at="2024-08-13T16:32:34 IST" name="Test" finished-at="2024-08-13T16:36:39 IST" duration-ms="244327">
       <class name="com.test.ProductPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ProductPageTest@5e2c3d18]" started-at="2024-08-13T14:51:09 IST" name="setUp" finished-at="2024-08-13T14:51:16 IST" duration-ms="6947" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ProductPageTest@5e2c3d18]" started-at="2024-08-13T16:34:30 IST" name="setUp" finished-at="2024-08-13T16:36:29 IST" duration-ms="119008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPrintProductDetails()[pri:0, instance:com.test.ProductPageTest@5e2c3d18]" started-at="2024-08-13T14:51:16 IST" name="testPrintProductDetails" finished-at="2024-08-13T14:51:17 IST" duration-ms="575" status="FAIL">
+        <test-method signature="testPrintProductDetails()[pri:0, instance:com.test.ProductPageTest@5e2c3d18]" started-at="2024-08-13T16:36:29 IST" name="testPrintProductDetails" finished-at="2024-08-13T16:36:29 IST" duration-ms="261" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index 0 out of bounds for length 0]]>
@@ -61,39 +61,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrintProductDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ProductPageTest@5e2c3d18]" started-at="2024-08-13T14:51:17 IST" name="tearDown" finished-at="2024-08-13T14:51:17 IST" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ProductPageTest@5e2c3d18]" started-at="2024-08-13T16:36:29 IST" name="tearDown" finished-at="2024-08-13T16:36:30 IST" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.test.ProductPageTest -->
       <class name="com.test.HomepageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.HomepageTest@7a35b0f5]" started-at="2024-08-13T14:50:53 IST" name="setUp" finished-at="2024-08-13T14:51:05 IST" duration-ms="12045" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.HomepageTest@7a35b0f5]" started-at="2024-08-13T16:32:34 IST" name="setUp" finished-at="2024-08-13T16:33:57 IST" duration-ms="82246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testClickSignIn()[pri:0, instance:com.test.HomepageTest@7a35b0f5]" started-at="2024-08-13T14:51:05 IST" name="testClickSignIn" finished-at="2024-08-13T14:51:09 IST" duration-ms="3407" status="PASS">
+        <test-method signature="testClickSignIn()[pri:0, instance:com.test.HomepageTest@7a35b0f5]" started-at="2024-08-13T16:33:57 IST" name="testClickSignIn" finished-at="2024-08-13T16:34:29 IST" duration-ms="32889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickSignIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.HomepageTest@7a35b0f5]" started-at="2024-08-13T14:51:09 IST" name="tearDown" finished-at="2024-08-13T14:51:09 IST" duration-ms="411" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.HomepageTest@7a35b0f5]" started-at="2024-08-13T16:34:29 IST" name="tearDown" finished-at="2024-08-13T16:34:30 IST" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.test.HomepageTest -->
       <class name="com.test.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LoginTest@2cb4893b]" started-at="2024-08-13T14:51:17 IST" name="setUp" finished-at="2024-08-13T14:51:24 IST" duration-ms="6998" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LoginTest@2cb4893b]" started-at="2024-08-13T16:36:30 IST" name="setUp" finished-at="2024-08-13T16:36:35 IST" duration-ms="5433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:com.test.LoginTest@2cb4893b]" started-at="2024-08-13T14:51:24 IST" name="testInvalidLogin" finished-at="2024-08-13T14:51:27 IST" duration-ms="2818" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:0, instance:com.test.LoginTest@2cb4893b]" started-at="2024-08-13T16:36:35 IST" name="testInvalidLogin" finished-at="2024-08-13T16:36:37 IST" duration-ms="2288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method signature="testLogin1()[pri:0, instance:com.test.LoginTest@2cb4893b]" started-at="2024-08-13T14:51:27 IST" name="testLogin1" finished-at="2024-08-13T14:51:28 IST" duration-ms="793" status="PASS">
+        <test-method signature="testLogin1()[pri:0, instance:com.test.LoginTest@2cb4893b]" started-at="2024-08-13T16:36:37 IST" name="testLogin1" finished-at="2024-08-13T16:36:38 IST" duration-ms="1038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTest@2cb4893b]" started-at="2024-08-13T14:51:28 IST" name="tearDown" finished-at="2024-08-13T14:51:28 IST" duration-ms="372" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTest@2cb4893b]" started-at="2024-08-13T16:36:38 IST" name="tearDown" finished-at="2024-08-13T16:36:39 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
