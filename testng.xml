@@ -5,6 +5,7 @@
     <classes>
       <class name="com.test.Basetest"/>
       <class name="com.test.HomepageTest"/>
+      <class name="com.test.ProductPageTest"/>
       <class name="com.test.LoginTest"/>
     </classes>
   </test> <!-- Test -->

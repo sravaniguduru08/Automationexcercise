@@ -3,21 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.test.HomepageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="testSignInButton"/>
-          <include name="tearDown"/>
-          <include name="testSignUpButton"/>
-        </methods>
-      </class> <!-- com.test.HomepageTest -->
-      <class name="com.test.LoginTest">
+      <class name="com.test.ProductPageTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testValidLogin"/>
+          <include name="testPrintProductDetails"/>
         </methods>
-      </class> <!-- com.test.LoginTest -->
+      </class> <!-- com.test.ProductPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
